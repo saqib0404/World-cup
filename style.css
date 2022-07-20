@@ -249,6 +249,9 @@ hr{
         margin-bottom: 30px;
         border-radius: 10px;
     }
+    .mini-nav a:hover{
+        transform: scale(1);
+    }
     .blogs{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -288,6 +291,7 @@ hr{
     .mini-nav{
         flex-direction: column;
     }
+    
     .blogs-container{
         margin-bottom: 30px;
     }
