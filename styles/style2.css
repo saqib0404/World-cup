@@ -19,6 +19,15 @@
     justify-content: space-between;
     align-items: center;
 }
+.match-top img{
+    width: 100%;
+}
+/* .match-img-1 img{
+    width: 100%;
+}
+.match-img-2 img{
+    width: 100%;
+} */
 .match-top h4{
     margin: 0 10px;
 }
