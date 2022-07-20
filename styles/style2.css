@@ -23,6 +23,18 @@
     margin: 0 10px;
 }
 
+.match-bottom h3{
+    font-weight: 600;
+    font-size: 20px;
+    color: #161616;
+}
+.match-bottom span{
+    font-weight: 400;
+    color: #4D4D4D;
+    font-size: 16px;
+}
+
+
 /*-----------------
     Media Queries 
 --------------------*/
