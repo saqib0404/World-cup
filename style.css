@@ -1,6 +1,7 @@
 /* common codes start */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .container{
     width: 90%;
@@ -22,6 +23,7 @@ header{
     padding: 40px;
     padding-bottom:0 ;
     margin-bottom: 100px;
+    margin-top: 30px;
 }
 .header-details{
     color: white;
@@ -54,3 +56,132 @@ header{
     width: 100%;
 }
 /* header ends */
+
+
+
+/*----------------
+    Main Starts
+------------------*/
+main{
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+}
+.mini-nav{
+    display: flex;
+    flex-direction: column;
+    background: #161616;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+.mini-nav a{
+    text-decoration: none;
+    padding: 17px 40px;
+    color: #161616;
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px;
+}
+#active-nav{
+    background-color: #DD0000;
+    color: white;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.blog{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 30px;
+}
+.blog-img{}
+.blog-img img{
+    width: 100%;
+}
+.blog-details{
+    padding: 20px;
+}
+.blog-details button{
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 0.5px solid lightgray;
+    cursor: pointer;
+}
+.blog-details p{
+    margin-bottom: 0;
+}
+.blog-details p:nth-child(2){
+    font-weight: 600;
+    font-size: 18px;
+}
+.blog-details p:nth-child(3){
+    color: rgba(22, 22, 22, 0.7);
+    font-weight: 400;
+    font-size: 16px;
+}
+.blogs-container{
+    margin-bottom: 100px;
+}
+.blogs-container a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #DD0000;
+    border-radius: 5px;
+    padding: 12px 30px;
+    display: none;
+}
+/* Main Starts */
+
+
+
+/*------------------
+    Footer starts
+--------------------*/
+footer{
+    background-color: #161616;
+    color: white;
+    text-align: center;
+    padding: 70px;
+}
+footer h3{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+hr{
+    width: 70%;
+    margin-top: 0;
+    margin-bottom: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-nav{
+    margin-bottom: 50px;
+}
+.footer-nav a{
+    padding-top:15px ;
+    color: #B9B9B9;
+    text-decoration: none;
+    margin: 0 25px;
+    color: #B9B9B9;
+    font-weight: 500;
+    font-size: 16px;
+}
+.social-icons i{
+    margin: 0 25px;
+    color: #B9B9B9;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.4s;
+}
+.social-icons i:hover{
+    transform: scale(1.5);
+}
+/* Footer ends */
