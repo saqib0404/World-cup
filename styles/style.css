@@ -182,15 +182,18 @@ hr{
     font-weight: 500;
     font-size: 16px;
 }
+.social-icons {
+    display: flex;
+    justify-content: space-evenly;
+}
 .social-icons i{
-    margin: 0 25px;
     font-weight: 500;
     font-size: 20px;
     cursor: pointer;
     transition: transform 0.4s;
 }
 .social-icons i:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 .fa-brands{
     border-radius: 50%;
@@ -263,11 +266,6 @@ hr{
         display: inline-block;
         margin-left: 40%;
     }
-
-    .social-icons i{
-        margin:10px 25px;
-    }
-    
 
 }
 
