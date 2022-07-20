@@ -1,0 +1,56 @@
+/* common codes start */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* common codes end */
+
+
+
+/*-----------------
+    header starts
+--------------------*/
+header{
+    background: #161616;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    padding-bottom:0 ;
+    margin-bottom: 100px;
+}
+.header-details{
+    color: white;
+    width: 40%;
+}
+.header-details h1{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.header-details p{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.header-details a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 400;
+    font-size: 20px;
+    background: #DD0000;
+    border-radius: 5px;
+}
+.header-img{
+    width: 40%;
+}
+.header-img img{
+    width: 100%;
+}
+/* header ends */
