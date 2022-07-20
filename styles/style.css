@@ -29,6 +29,7 @@ header{
     color: white;
     width: 40%;
     padding-bottom: 50px;
+    position: relative;
 }
 .header-details h1{
     font-weight: 700;
@@ -49,12 +50,23 @@ header{
     font-size: 20px;
     background: #DD0000;
     border-radius: 5px;
+    position: absolute;
+    animation: bounce 2s ease-in-out 1 ;
+}
+
+@keyframes bounce {
+    0%{
+        bottom: 100%;
+    }
+    100%{
+        bottom: 0;
+    }
 }
 .header-img{
     width: 40%;
 }
 .header-img img{
-    width: 100%;
+    width: 100%;  
 }
 /* header ends */
 
@@ -284,6 +296,9 @@ hr{
     .header-details h1{
         font-size: 22px;
     }
+    .header-details a{
+        position: relative;
+    }
     .header-img{
         width: 100%;
     }
@@ -292,7 +307,6 @@ hr{
     .mini-nav{
         flex-direction: column;
     }
-    
     .blogs-container{
         margin-bottom: 30px;
     }
